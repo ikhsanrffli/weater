@@ -1,0 +1,171 @@
+    body {
+    background-image: linear-gradient(180deg, white, #abb8c3);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    }
+    a {
+    text-decoration: none;
+    }
+    .navmenu {
+    width: 950px;
+    margin: 25px auto;
+    }
+    ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+    }
+    li {
+    color: rgba(72, 45, 112, 1);
+    margin: 0 1em;
+    list-style: none;
+    }
+    li.logo {
+    margin-right: auto;
+    }
+    .img {
+    width: 100%;
+    height: auto;
+    }
+    .border1 {
+    text-align: center;
+    border: 3px solid;
+    padding: 15px;
+    margin: 15px;
+    list-style: none;
+    background-color: rgb(182, 227, 228);
+    }
+    .border1:hover {
+    background-color: rgb(201, 231, 176);
+    color: #555555;
+    }
+    .link {
+    text-align: center;
+    padding: 15px;
+    }
+
+    .link:hover {
+    background-color: rgb(201, 231, 176);
+    color: #555555;
+    }
+    .main1 {
+    float: none;
+    }
+    .tempmedia {
+    width: 900px;
+    padding: 25px;
+    margin: 25px auto;
+    background: transparent;
+    }
+    .tempmedia img {
+    min-width: 950px;
+    margin: 0 0 25px -25px;
+    max-width: 950px;
+    }
+    .blockquote {
+    font-size: 1.4em;
+    width: 70%;
+    margin: 10px auto;
+    padding: 1em 30px 1em 75px;
+    font-style: italic;
+    color: #555555;
+    border-left: 8px solid orange;
+    line-height: 1, 6;
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-image: linear-gradient(100deg, white, #abb8c3);
+    }
+
+    #container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 960px;
+    padding: 0px;
+    margin: 0px auto;
+    }
+    .box1 {
+    background-color: pink;
+    width: auto;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    }
+
+    .list-buku {
+    width: 940px;
+    padding: 1px;
+    margin: 25px auto;
+    background: transparent;
+    background-image: linear-gradient(to bottom, white, #abb8c3);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .dua {
+    background-color: rgb(186, 85, 233);
+    }
+    .tiga {
+    background-color: red;
+    }
+    .empat {
+    background-color: goldenrod;
+    }
+    .footer {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+    .sejarah {
+    width: 940px;
+    padding: 1px;
+    margin: 25px auto;
+    background: transparent;
+    background-image: linear-gradient(to bottom, white, #abb8c3);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    h3 {
+    margin-left: 15px;
+    }
+    .deskripsi {
+    text-align: justify;
+    font-size: 14px;
+    width: 940px;
+    padding: 5px;
+    margin: 25px auto;
+    background: transparent;
+    background-image: linear-gradient(to bottom, white, #abb8c3);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .deskripsi p {
+    padding: 3px;
+    }
+
+    .tugas-pokok {
+    width: 940px;
+    padding: 1px;
+    margin: 25px auto;
+    background: transparent;
+    background-image: linear-gradient(to bottom, white, #abb8c3);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .tabel {    
+    text-align: justify;
+    font-size: 14px;
+    width: 940px;
+    padding: 5px;
+    margin: 25px auto;
+    background: transparent;
+    background-image: linear-gradient(to bottom, white, #abb8c3);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    td {
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(142, 29, 195);
+    }
+    a{
+        color:black;
+    }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Warna</title>
+    <style>
+        .form-atas{
+            padding: 15px 0;
+            border-bottom: 1px solid orange;
+            background-color: aquamarine;
+        }
+        .form-atas h1{
+            font-size: 28px;
+            text-align: center;
+            color: white;
+        }
+        .btn{
+            padding: 10px 20px;
+            background-color: orange;
+            font-size: 17px;
+            border: none;
+            border-radius: 5px;
+            color: #bcf5e7;
+            cursor: pointer;
+        }
+        .form-bawah{
+            display: flex;
+            justify-content: flex-end;
+            padding:10px;
+            background-color: #bcf5e7;
+        }
+        input[type="text"]{
+            width:100%;
+            font-size:18px;
+            height: 34px;
+            padding-left:10px;
+            padding-right: 10px;
+            color: #666;
+            border: 1px solid #d6d6d6;
+            border-radius: 4px;
+            background:white ;
+            outline: none;
+            background-color: blue ;
+            box-shadow: 5px 4px 4px 4px orange; 
+
+        }
+    </style>
+</head>
+<body>
+    <div class="page1">
+        <form action="POST" class="">
+           <div class="form-atas">
+            <h1>Login Anggota</h1>
+           </div>
+            <label>UserName</label><br>
+            <input type="text" name="username" id=""><br>
+            <label for="">Password</label><br>
+            <input type="password" name="password" id=""><br>
+            <table>
+                <tr>
+                <td>
+                    Jenis Kelamin
+                </td>
+                <td>Jurusan</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="laki" id="">Laki - Laki</td>
+                    <td><input type="radio" name="puan" id="">Perempuan</td>
+                    <td>
+                        <input type="checkbox" name="manajemen" id="">Manajemen
+                    </td>
+                    <td>
+                        <input type="checkbox" name="manajemen" id="">Informatika
+                    </td>
+                </tr>
+            </table>
+            <label for="">Keterangan</label><br>
+            <input type="text" name="ket" id="">
+
+            <div class="form-bawah">
+                <input type="button" value="Login" class="btn">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
